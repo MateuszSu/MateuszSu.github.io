@@ -1,0 +1,36 @@
+.container-form{
+    display: grid;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+}
+.time-text{
+    display: grid;
+    justify-self: center;
+    height: 5vh;
+}
+.btn-primary{
+    display: grid;
+    justify-self: center;
+    width: 50vw;
+    height: 5vh;
+}
+.input-group{  
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+}
+.input-speed{
+    display: grid;
+    justify-self: center;
+    width: 50vw;
+}
+.text-click{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(60,98,106,1) 100%);
+   }

@@ -1,0 +1,26 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(60,98,106,1) 100%);
+   }
+.card {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    display: block;
+    float: left;
+    width: 32.6%;
+    text-align: center;
+    color: black;
+    font-family: 'Calibri';
+  }
+#speed-card{
+    margin-right: 0.5%;
+}
+
+.card-body{
+    height: 45vh;
+}
+
+.card-img-top{
+    height: 45vh;
+    width: 100%;
+}

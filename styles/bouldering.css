@@ -1,0 +1,36 @@
+.box-animation{
+    width: 90vw;
+    height: 600px;
+    display: grid;
+    justify-items: center;
+    position: absolute;
+}
+#skala{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    top: 0px;
+    left: 0px;
+}
+#spada{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    top: -550px;
+    left: 70px;
+}
+.child{
+    transition: transform 1s cubic-bezier(0, 0, 0.2, 1);
+}
+.parent:hover .child{
+    transform: translateY(75%);
+}
+.header{
+    padding-top: 5vh;
+    display: grid;
+    justify-items: center;
+}
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(60,98,106,1) 100%);
+   }
